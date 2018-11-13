@@ -1,0 +1,42 @@
+{
+	"Records": [{
+		"messageId": "12ff0c77-fg56-3df5-bd99-01ccc043jk56",
+		"receiptHandle": "MessageReceiptHandle",
+		"body": {
+			"Type": "Notification",
+			"MessageId": "ee38e82c-62f9-59a9-b2b6-bc7264eb07e2",
+			"TopicArn": "arn:aws:sns:us-west-2:253142781406:test-run-complete",
+			"Message": {
+				"tId": 1600000,
+				"vID": 430000,
+				"projut": "Star",
+				"calendarDate": "2017-11-04",
+				"factS": [{
+					"sId": "1111111",
+					"jagya": "T000111-TAZA"
+				}],
+				"bucket": "test-load",
+				"inputFilePaths": ["input-files/tId=1600000/vId=430000/sinput/file1.csv", "input-files/tId=1600000/vId=430000/sinput/file2.csv", "input-files/tId=1600000/vId=430000/sinput/file3.csv", "input-files/tId=1600000/vId=430000/sinput/file4.csv", "input-files/tId=1600000/vId=430000/sinput/file5.csv"],
+				"outputFilePaths": ["output-files/tId=1600000/vId=430000/soutput/ofile1.txt", "output-files/tId=1600000/vId=430000/soutput/ofile2.txt", "output-files/tId=1600000/vId=430000/soutput/ofile3.txt", "output-files/tId=1600000/vId=430000/soutput/ofile4.txt"],
+				"isValid": "Y",
+				"receivedTimestamp": "2018-11-08T09:37:22Z"
+			},
+			"Timestamp": "2017-11-08T09:37:22.702Z",
+			"SignatureVersion": "1",
+			"Signature": "N8VOqXDNrvSdsgcudgcdugcus!23SDFGhghHVHGkjjKJJIzLZ/khkjhRTPW0/J7456q/08urBo/fJ8H4g3ZZ0+JGPKGp3S9Ka0AKB+4jfYUASW/djdkjuIQW7OtBeJwRHKyoagQ89WeqpynsaO/wQV/sjhdsjdhsjdjTY03gkyj2Nw3H99/UJuyKOhg6GJgWM6grggkalWLDNYdf567==",
+			"SigningCertURL": "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-hj35648fg948472.pem",
+			"UnsubscribeURL": "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:459213670:test-run-complete:3145321f1-dc9a-4gg0-9d78-f56hj825678"
+		},
+		"attributes": {
+			"ApproximateReceiveCount": "1",
+			"SentTimestamp": "1523232000000",
+			"SenderId": "123456789012",
+			"ApproximateFirstReceiveTimestamp": "1523232000001"
+		},
+		"messageAttributes": {},
+		"md5OfBody": "7b270e59b47ff90a553787216d55d91d",
+		"eventSource": "aws:sqs",
+		"eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:MyQueue",
+		"awsRegion": "us-east-1"
+	}]
+}
